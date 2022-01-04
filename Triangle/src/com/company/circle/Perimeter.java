@@ -13,6 +13,6 @@ public class Perimeter {
 
         double perimeter = 2 * 3.14159 * radius;
 
-        System.out.println("The perimeter of a triangle is "+ perimeter);
+        System.out.println("The area of a circle is "+ perimeter);
     }
 }
