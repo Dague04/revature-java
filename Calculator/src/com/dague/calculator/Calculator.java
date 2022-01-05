@@ -5,6 +5,11 @@ public class Calculator {
     int num2;
     static public String brand;
 
+    public Calculator(int num1, int num2) {
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+
     // method to get the first number field
     public int getNum1() {
         return num1;
@@ -30,5 +35,13 @@ public class Calculator {
         int sum = 0;
         sum = num1 + num2;
         return sum;
+    }
+
+    @Override
+    public String toString() {
+        return "Calculator {" +
+                "num1=" + num1 +
+                ", num2=" + num2 +
+                '}';
     }
 }
