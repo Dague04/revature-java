@@ -1,8 +1,5 @@
 package com.dague.beans;
 
-import lombok.Data;
-
-
 public abstract class Polygon {
     int dim1;
     int dim2;
