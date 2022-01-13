@@ -1,11 +1,18 @@
 package com.company;
 
 import com.company.exception.StudentGradeException;
+import org.apache.log4j.Logger;
 
 import java.util.Scanner;
 
 public class StudentExceptionHandsOn {
+
+    static Logger logger = Logger.getLogger(StudentExceptionHandsOn.class);
+
     public static void main(String[] args) {
+
+        logger.debug("Process hs started");
+        
         Scanner sc = new Scanner(System.in);
         System.out.print("What is your score for the first exam?: ");
         int score = sc.nextInt();
